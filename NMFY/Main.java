@@ -31,10 +31,10 @@ public class Main {
 
         CommandListUpdateAction commands = jda.updateCommands();
         commands.addCommands(
-                Commands.slash("Reboot","Reboots the system"),
-                Commands.slash( "Public ip","Gets the public ip"),
-                Commands.slash("Local ip","Gets the local ip"),
-                Commands.slash("Uptime","Gets how long the bot has been running")
+                Commands.slash("reboot","Reboots the system"),
+                Commands.slash( "public_ip","Gets the public ip"),
+                Commands.slash("local_ip","Gets the local ip"),
+                Commands.slash("uptime","Gets how long the bot has been running")
         );
 
         commands.queue();
